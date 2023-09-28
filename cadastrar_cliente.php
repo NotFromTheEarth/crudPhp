@@ -74,9 +74,6 @@
 </head>
 <body>
     <H1>Cadastrar Cliente</H1>
-    <a href="clientes.php">Voltar para a lista</a>
-    <br><br>
-
     <form action="" method="post">
         <label>Nome:</label>
         <input type="text" name="nome" value="<?php if(isset($_POST['nome'])) echo $_POST['nome']?>">
