@@ -2,7 +2,8 @@
 
 <?php
     include('conexao.php');
-    $sql_clientes = "SELECT * FROM clientes";
+    //$sql_clientes = "SELECT * FROM clientes";
+    $sql_clientes = "SELECT * FROM clientes ORDER BY id DESC";
     $query_clientes = $mysqli->query($sql_clientes) or die($mysqli->error);
     $num_clientes = mysqli_num_rows($query_clientes);
     echo "clientes:". $num_clientes;

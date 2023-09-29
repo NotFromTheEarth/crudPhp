@@ -81,7 +81,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1>Cadastrar Cliente</H1>
+    <H1>Editar Cliente</H1>
     <a href="clientes.php">Voltar para a lista</a>
     <br><br>
 
