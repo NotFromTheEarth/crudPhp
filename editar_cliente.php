@@ -86,23 +86,23 @@
     <br><br>
 
     <form action="" method="post">
-        <label>Nome:</label>
+        <label>Nome:</label><br>
         <input type="text" name="nome" value="<?php echo $cliente['nome']?>">
         <br><br>
 
-        <label>E-mail:</label>
+        <label>E-mail:</label><br>
         <input type="text" name="email" value="<?php echo $cliente['email']?>">
         <br><br>
 
-        <label>Telefone:</label>
+        <label>Telefone:</label><br>
         <input placeholder="(11) 98888-1234" type="text" name="telefone" value="<?php echo formatar_telefone($cliente['telefone']) ?>">
         <br><br>
 
-        <label>Nascimento:</label>
+        <label>Nascimento:</label><br>
         <input type="text" name="nascimento" value="<?php echo formatar_data($cliente['nascimento']); ?>">
         <br><br>
 
-        <button type="submit">Cadastrar</button>
+        <button type="submit">Editar</button>
     </form>
 </body>
 </html>

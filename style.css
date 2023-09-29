@@ -1,8 +1,13 @@
 body{
     background: #282a36;
+    background: #1f1f1f;
+    background-image: linear-gradient(163deg, #1f1f1f , #282a36);
+
     color:#a074c4;
+    color:#4d7c13;
 }
 
 a{
     color:#a074c4;
+    color:#4d7c13;
 }
